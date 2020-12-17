@@ -16,7 +16,9 @@ r = df.index
  
 for i in range(len(r)):
 
-    # Reading and storing each entry in variable 'c'    
+    # Reading and storing each entry in variable 'c'
+    # dF.loc[i][0] :- Here, index '0' represents the 'Mobile Number' column from the .csv file.
+    # You can change the column index and name as per your .csv file
     c = df.loc[i][0]
     
     # Typecasting the entry into string
