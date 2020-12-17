@@ -11,7 +11,7 @@ reader = pd.read_csv('phone.csv')
 # Creating Data Frame of the current file
 df = pd.DataFrame(reader)
 
-# Counting the number of rows (in this case, number of contacts
+# Counting the number of rows (in this case, number of contacts)
 r = df.index
  
 for i in range(len(r)):
